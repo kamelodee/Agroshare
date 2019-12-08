@@ -1,0 +1,36 @@
+form {
+    align-content: center;
+    width: 100%;
+}
+
+label {
+    margin-top: 15px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+input {
+    outline: none;
+    display: block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    font-family: inherit;
+    width: 40vw;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    background-color: #ccc;
+}
+
+.sub {
+    margin-top: 10px;
+    color: #fff;
+    background: blue;
+    border-radius: 8px;
+}
